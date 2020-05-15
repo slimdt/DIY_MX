@@ -5,7 +5,7 @@
 ### 爬虫
 自己第一次用Python写爬虫，写的真的很垃圾（大神莫笑话），不过还是生成了大部分latex code。爬的是[这个网站](https://www.marxists.org/chinese/maozedong/index.htm)
 ### latex
-latex模板我使用的是[ElegantBook](https://www.overleaf.com/latex/templates/elegantbook-template/zpsrbmdsxrgy)，由于我喜欢用overleaf，就在上面找了该模板.
+latex模板我使用的是[ElegantBook](https://www.overleaf.com/latex/templates/elegantbook-template/zpsrbmdsxrgy)，由于我喜欢用overleaf，就在上面找了该模板，并做了一点点的修改。
 ## 具体过程
 1. MX_V1.ipynb 生成卷一所需的latex， MX_V2345.ipynb 生成卷二三四五所需的latex。（每次生成一卷，保存在2.txt中。 再次强调代码是胡乱写的，太垃圾了。）
 2. 把latex code拷贝到相应的.tex文件中，自己再手动更改一下封面等（每一卷一本书）。 这里说一下Python代码只生成了该卷中每篇文章对应的latex代码，其他的部分请看MX.tex文件。
